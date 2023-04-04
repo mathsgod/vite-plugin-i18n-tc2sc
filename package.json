@@ -7,5 +7,8 @@
     "release": "npm version patch && npm publish"
   },
   "author": "Raymond Chong <mathsgod@yahoo.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.2.1"
+  }
 }
