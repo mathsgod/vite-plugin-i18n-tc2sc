@@ -20,9 +20,29 @@ import tc2scPlugin from 'vite-plugin-i18n-tc2sc'
 export default defineNuxtConfig({
   vite: {
     plugins: [
-      tc2scPlugin(())
+      tc2scPlugin()
     ]
   }
 })
 ```
 
+## Example
+
+In some vue page
+```vue
+<i18n>
+{
+  "tc": {
+    "hello": "你好嗎?"
+  }
+}
+</i18n>
+
+<template>
+  <div>
+    <h1>{{ $t('hello') }}</h1>
+  </div>
+</template>
+```
+
+It will be converted to "你好吗?" when locale is "sc"
