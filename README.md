@@ -30,7 +30,7 @@ export default defineNuxtConfig({
 
 In some vue page
 ```vue
-<i18n>
+<i18n lang="json">
 {
   "tc": {
     "hello": "你好嗎?"
