@@ -7,6 +7,14 @@
   "scripts": {
     "release": "npm version patch && npm publish"
   },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "vue-i18n",
+    "tc2sc",
+    "traditional chinese",
+    "simplified chinese"
+  ],
   "author": "Raymond Chong <mathsgod@yahoo.com>",
   "license": "MIT",
   "dependencies": {
