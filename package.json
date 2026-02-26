@@ -5,6 +5,9 @@
   "homepage": "https://github.com/mathsgod/vite-plugin-i18n-tc2sc",
   "description": "A module used auto generate simplified chinese (sc) from traditional chinese (tc) in vue-i18n",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/mathsgod/vite-plugin-i18n-tc2sc"
+  },
   "exports": {
     ".": "./index.js"
   },
