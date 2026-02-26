@@ -33,9 +33,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build project (if needed)
-        run: npm run build
-
       - name: Publish to NPM Registry
         # npm publish 會自動使用 .npmrc 中由 OIDC 產生的 Token
         run: npm publish --access public
