@@ -1,5 +1,5 @@
 import yaml from 'yaml'
-import tc2sc from "./tc2sc"
+import tc2sc from "./tc2sc.js"
 
 let tran = (obj) => {
     let s = {};
@@ -28,7 +28,7 @@ let merge = (to, from) => {
 }
 
 
-module.exports = function tc2sc(options) {
+export default function (options) {
 
     return {
         name: "tc2sc",

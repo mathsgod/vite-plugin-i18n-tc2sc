@@ -55,7 +55,7 @@ let toSimplified = {
     '埰': '采'
 };
 
-module.exports = function (itxt) {
+export default function (itxt) {
 
     let source = traditional_chinese;
     let target = simplified_chinese;
