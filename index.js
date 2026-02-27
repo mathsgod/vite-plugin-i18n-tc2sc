@@ -98,5 +98,3 @@ export default function (options) {
         }
     }
 }
-
-module.exports.default = module.exports
